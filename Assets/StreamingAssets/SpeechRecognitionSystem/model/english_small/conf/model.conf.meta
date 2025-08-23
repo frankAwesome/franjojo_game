@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bb3e7343536933d48ac78adcd9de6b76
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187171
+  packageName: Speech Recognition System
+  packageVersion: 1.0.13
+  assetPath: Assets/StreamingAssets/SpeechRecognitionSystem/model/english_small/conf/model.conf
+  uploadId: 658812

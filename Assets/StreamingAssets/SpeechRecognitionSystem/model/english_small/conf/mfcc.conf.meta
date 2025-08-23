@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5f15c8de38a579845ba04c2332dc28cb
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187171
+  packageName: Speech Recognition System
+  packageVersion: 1.0.13
+  assetPath: Assets/StreamingAssets/SpeechRecognitionSystem/model/english_small/conf/mfcc.conf
+  uploadId: 658812

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f9e512a7dea8edb4c88f769cf84e652f
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319708
+  packageName: EzAPI
+  packageVersion: 1.0.0
+  assetPath: Assets/EZAPI/Third-Party Notices.txt
+  uploadId: 772202

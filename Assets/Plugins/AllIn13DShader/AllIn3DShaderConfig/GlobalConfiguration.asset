@@ -21,17 +21,17 @@ MonoBehaviour:
   rootPluginPath: Assets\Plugins\AllIn13DShader
   globalConfigFolderPath: Assets\Plugins\AllIn13DShader\AllIn3DShaderConfig
   exportFolderPath: Assets\Plugins\AllIn13DShader\AllIn3DShaderConfig\Export
-  materialSavePath: Assets\Plugins\AllIn13DShader\AllIn3DShaderConfig\Export\Materials
-  renderImageSavePath: Assets\Plugins\AllIn13DShader\AllIn3DShaderConfig\Export\Images
-  normalMapSavePath: Assets\Plugins\AllIn13DShader\AllIn3DShaderConfig\Export\Normal
+  materialSavePath: Assets/Plugins/AllIn13DShader/AllIn3DShaderConfig/Export/Materials
+  renderImageSavePath: Assets/Plugins/AllIn13DShader/AllIn3DShaderConfig/Export/Images
+  normalMapSavePath: Assets/Plugins/AllIn13DShader/AllIn3DShaderConfig/Export/Normal
     Maps
-  gradientSavePath: Assets\Plugins\AllIn13DShader\AllIn3DShaderConfig\Export\Gradients
-  atlasesSavePath: Assets\Plugins\AllIn13DShader\AllIn3DShaderConfig\Export\Atlases
-  noiseSavePath: Assets\Plugins\AllIn13DShader\AllIn3DShaderConfig\Export\Noises
-  renderImageScale: 0
+  gradientSavePath: Assets/Plugins/AllIn13DShader/AllIn3DShaderConfig/Export/Gradients
+  atlasesSavePath: Assets/Plugins/AllIn13DShader/AllIn3DShaderConfig/Export/Atlases
+  noiseSavePath: Assets/Plugins/AllIn13DShader/AllIn3DShaderConfig/Export/Noises
+  renderImageScale: 0.2
   projectConfiguredFirstTime: 1
   urpConfiguredFirstTime: 1
-  lastPipelineConfiguredGUID: 5e6cbd92db86f4b18aec3ed561671858
+  lastPipelineConfiguredGUID: 4b83569d67af61e458304325a23e5dfd
   shStandard: {fileID: 4800000, guid: 0dde7f0097aeb2541aea684ca0ad0e3c, type: 3}
   shStandardNoShadowCaster: {fileID: 4800000, guid: 8a970d62549d99d4eab51bffa33b0ee9, type: 3}
   shOutline: {fileID: 4800000, guid: 6034452bd7752ab41918b7826b5cfd4f, type: 3}

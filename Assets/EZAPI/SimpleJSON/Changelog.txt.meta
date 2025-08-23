@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 010f6558ed9ad724ebcc0ebe1a716d80
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319708
+  packageName: EzAPI
+  packageVersion: 1.0.0
+  assetPath: Assets/EZAPI/SimpleJSON/Changelog.txt
+  uploadId: 772202

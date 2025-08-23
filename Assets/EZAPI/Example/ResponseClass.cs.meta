@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3c982ffd0a3ce4d408cd977c54ea3b0d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319708
+  packageName: EzAPI
+  packageVersion: 1.0.0
+  assetPath: Assets/EZAPI/Example/ResponseClass.cs
+  uploadId: 772202

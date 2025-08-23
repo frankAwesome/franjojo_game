@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d2287c65b5d523f418817cfac15f3d6a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319708
+  packageName: EzAPI
+  packageVersion: 1.0.0
+  assetPath: Assets/EZAPI/Editor/EnumInheritanceUpdater.cs
+  uploadId: 772202

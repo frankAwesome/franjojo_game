@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9ed9691184d67aa438ff9aa170229b72
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187171
+  packageName: Speech Recognition System
+  packageVersion: 1.0.13
+  assetPath: Assets/StreamingAssets/SpeechRecognitionSystem/model/english_small/graph/phones/word_boundary.int
+  uploadId: 658812

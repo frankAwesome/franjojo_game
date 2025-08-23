@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5540422846fe9074eb1e8d7d76888407
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187171
+  packageName: Speech Recognition System
+  packageVersion: 1.0.13
+  assetPath: Assets/SpeechRecognitionSystem/Scripts/AudioRecorder.cs
+  uploadId: 658812

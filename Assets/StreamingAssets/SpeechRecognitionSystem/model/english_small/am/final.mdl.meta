@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 667ee020425f6724f90db926bf553477
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187171
+  packageName: Speech Recognition System
+  packageVersion: 1.0.13
+  assetPath: Assets/StreamingAssets/SpeechRecognitionSystem/model/english_small/am/final.mdl
+  uploadId: 658812

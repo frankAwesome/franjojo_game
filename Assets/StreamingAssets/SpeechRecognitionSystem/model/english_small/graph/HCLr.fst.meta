@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 98dc75cc8e8d6e047b59d20d1aa8707f
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187171
+  packageName: Speech Recognition System
+  packageVersion: 1.0.13
+  assetPath: Assets/StreamingAssets/SpeechRecognitionSystem/model/english_small/graph/HCLr.fst
+  uploadId: 658812

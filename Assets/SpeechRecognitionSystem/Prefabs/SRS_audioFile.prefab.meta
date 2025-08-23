@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0327194e15aa74a42ab9994b6dbb2350
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187171
+  packageName: Speech Recognition System
+  packageVersion: 1.0.13
+  assetPath: Assets/SpeechRecognitionSystem/Prefabs/SRS_audioFile.prefab
+  uploadId: 658812

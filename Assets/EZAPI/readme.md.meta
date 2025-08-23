@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 36bf5824d4fada14b8a35352e682fe60
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319708
+  packageName: EzAPI
+  packageVersion: 1.0.0
+  assetPath: Assets/EZAPI/readme.md
+  uploadId: 772202

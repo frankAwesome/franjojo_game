@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c14a5f9e02ba7f94aab7c665f4ea0b7f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187171
+  packageName: Speech Recognition System
+  packageVersion: 1.0.13
+  assetPath: Assets/SpeechRecognitionSystem/Scripts/AudioPlayer.cs
+  uploadId: 658812

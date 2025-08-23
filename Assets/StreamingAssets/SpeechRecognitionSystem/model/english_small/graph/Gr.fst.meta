@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0fd9606028ad2f34fa85a4e8b32ca999
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187171
+  packageName: Speech Recognition System
+  packageVersion: 1.0.13
+  assetPath: Assets/StreamingAssets/SpeechRecognitionSystem/model/english_small/graph/Gr.fst
+  uploadId: 658812

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c71901f0a5d13a943bfda621254233d9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319708
+  packageName: EzAPI
+  packageVersion: 1.0.0
+  assetPath: Assets/EZAPI/NonEditor/BaseClass/APIConfig/APIConfig.cs
+  uploadId: 772202

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f0babe2f951e444b53c90ddaafebbf, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  apiConfig: {fileID: 11400000, guid: 0463abb44195cf244851f17b05868728, type: 2}
+  endPoints:
+  - endPoint: com
+    requestTypes: 0
+    payLoadClass: 0
+    responseClass: 0
+    requestTimeout:
+      overrideValue: 0
+      overridenValue: 1000
+    retryInfo:
+      overrideValue: 1
+      overridenValue: 1000
+    dataTypeStruct:
+      dataTypeOverride: 0
+      dataType: 0
+    contentTypeStruct:
+      contentTypeOverride: 0
+      contentType: 

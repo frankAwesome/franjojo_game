@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4d27a55adbc1aaf47b5531a264cfc0eb
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187171
+  packageName: Speech Recognition System
+  packageVersion: 1.0.13
+  assetPath: Assets/StreamingAssets/SpeechRecognitionSystem/model/english_small/ivector/final.mat
+  uploadId: 658812
