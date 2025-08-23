@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c71901f0a5d13a943bfda621254233d9, type: 3}
   m_Name: Dev
   m_EditorClassIdentifier: 
-  baseUrl: https://dgfwsrg.free.beeceptor.
+  baseUrl: https://franklerk.co.za/
   defaultRequestTimeout: 1
   defaultRetryCount: 1
   dataType: 0

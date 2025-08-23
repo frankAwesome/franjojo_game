@@ -408,27 +408,12 @@ MonoBehaviour:
   m_Events:
     m_Signals:
     - {fileID: 11400000, guid: 2ff7478d48354914ba3a319fb43a9aa9, type: 2}
-    - {fileID: 11400000, guid: 8d966a97e55808443891d4fd7e66cd92, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 7190144759330185648}
           m_TargetAssemblyTypeName: Pig, Assembly-CSharp
           m_MethodName: RandomSpeech
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 7190144759330185648}
-          m_TargetAssemblyTypeName: Pig, Assembly-CSharp
-          m_MethodName: RunToHouse
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -4923,67 +4908,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8290976094797405425, guid: be404041eb4106a4cb227d868f26456d, type: 3}
   m_PrefabInstance: {fileID: 637290703}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &714380677
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 714380678}
-  - component: {fileID: 714380679}
-  m_Layer: 0
-  m_Name: Event3-WolfAtDoorStraw
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &714380678
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 714380677}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1074330918}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!320 &714380679
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 714380677}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: e889695ade2685b409089a617c92f8e7, type: 2}
-  m_InitialState: 0
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -8148159951822536890, guid: e889695ade2685b409089a617c92f8e7, type: 2}
-    value: {fileID: 2142443733}
-  - key: {fileID: -4810309489799187870, guid: e889695ade2685b409089a617c92f8e7, type: 2}
-    value: {fileID: 2142443730}
-  - key: {fileID: 1444754156566075870, guid: e889695ade2685b409089a617c92f8e7, type: 2}
-    value: {fileID: 3656592521288244305}
-  - key: {fileID: -5118212600879203529, guid: e889695ade2685b409089a617c92f8e7, type: 2}
-    value: {fileID: 88622481}
-  - key: {fileID: 6107302405628524547, guid: e889695ade2685b409089a617c92f8e7, type: 2}
-    value: {fileID: 1217351330}
-  - key: {fileID: 6751629528766507253, guid: e889695ade2685b409089a617c92f8e7, type: 2}
-    value: {fileID: 1922880381}
-  m_ExposedReferences:
-    m_References: []
 --- !u!1 &722355487
 GameObject:
   m_ObjectHideFlags: 0
@@ -7594,7 +7518,6 @@ Transform:
   m_Children:
   - {fileID: 736569866}
   - {fileID: 1410579927}
-  - {fileID: 714380678}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1076858925
@@ -8113,11 +8036,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1302373413210680392, guid: ab9afea77e40a674fb4952bfc9ce3d58, type: 3}
   m_PrefabInstance: {fileID: 1207614729}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1217351330 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4411109817136154226, guid: c073440a108eda2458bfa8d0ea8b28c3, type: 3}
-  m_PrefabInstance: {fileID: 7190144759330185645}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1218779703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8560,52 +8478,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!1 &1289823571
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1289823572}
-  - component: {fileID: 1289823573}
-  m_Layer: 0
-  m_Name: FraJoJoApi
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1289823572
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289823571}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1520677391}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1289823573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289823571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e74c6ce3aef58d4b845ad5a692f1334, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FraJoJoApi
-  BearerToken: eyJhbGciOiJSUzI1NiIsImtpZCI6IjkyZTg4M2NjNDY2M2E2MzMyYWRhNmJjMWU0N2YzZmY1ZTRjOGI1ZDciLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vbXloYWNrLWM2ZTQ5IiwiYXVkIjoibXloYWNrLWM2ZTQ5IiwiYXV0aF90aW1lIjoxNzU1OTg2NTI3LCJ1c2VyX2lkIjoicDB5THY5UlhSb2hpZnQ0bGRLZXBaWEM2Wk8wMiIsInN1YiI6InAweUx2OVJYUm9oaWZ0NGxkS2VwWlhDNlpPMDIiLCJpYXQiOjE3NTU5ODY1MjcsImV4cCI6MTc1NTk5MDEyNywiZW1haWwiOiJndXlAZ3V5LmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJndXlAZ3V5LmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.sxCBBKqeyN_titRvQF8IWShysYg5vwMVc9hNcTbPsY0yINdEYCSTGnv_Grf78mFBCQ8Pt9DdCgwnXGnBOQDNJKvefeBw33gyG0jeua_UpQ4Wwa-gMBEbFZB3G1YApkP3JkkNR7ocTe3PPU9Gvc9VGUvS5yDnKVqzADaebj4Al582pjT0B0aT3OnhgesSS361XLomngH0qwjujO9D3cMGY43uZP_YAlvyysLaqgeEEuTBl5KQYFVDbk2H5zk15I_UmSTammJQL_FI2iwe5VFNVBABZYUEisn8sbVkF1yi2BfjmGdwkmpr7DgbN3NsF1CR7PMQmbwESPhxJ0wr1lA2dg
-  BaseUrl: https://franklerk.co.za/
 --- !u!1001 &1291974003
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9269,7 +9141,6 @@ GameObject:
   - component: {fileID: 1374982586}
   - component: {fileID: 1374982585}
   - component: {fileID: 1374982589}
-  - component: {fileID: 1374982590}
   m_Layer: 0
   m_Name: FirstSpot
   m_TagString: Untagged
@@ -9384,33 +9255,13 @@ MonoBehaviour:
   HasTriggered: 0
   RequiredState: 0
   TimelineToPlay: {fileID: 1410579928}
---- !u!114 &1374982590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374982584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifier
-  m_SerializedVersion: 0
-  m_OverrideArea: 0
-  m_Area: 0
-  m_OverrideGenerateLinks: 0
-  m_GenerateLinks: 0
-  m_IgnoreFromBuild: 1
-  m_ApplyToChildren: 1
-  m_AffectedAgents: ffffffff
 --- !u!1001 &1375602104
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2033448717}
     m_Modifications:
     - target: {fileID: 6509832104137704127, guid: 46425494c2ba8ee4a8e6fff46da58ee1, type: 3}
       propertyPath: m_Name
@@ -9422,15 +9273,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7546367064327805180, guid: 46425494c2ba8ee4a8e6fff46da58ee1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 31.77448
+      value: 26.007404
       objectReference: {fileID: 0}
     - target: {fileID: 7546367064327805180, guid: 46425494c2ba8ee4a8e6fff46da58ee1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.22624324
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 7546367064327805180, guid: 46425494c2ba8ee4a8e6fff46da58ee1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 32.690666
+      value: 25.700861
       objectReference: {fileID: 0}
     - target: {fileID: 7546367064327805180, guid: 46425494c2ba8ee4a8e6fff46da58ee1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9470,9 +9321,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6509832104137704127, guid: 46425494c2ba8ee4a8e6fff46da58ee1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1375602107}
-    - targetCorrespondingSourceObject: {fileID: 6509832104137704127, guid: 46425494c2ba8ee4a8e6fff46da58ee1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1375602111}
   m_SourcePrefab: {fileID: 100100000, guid: 46425494c2ba8ee4a8e6fff46da58ee1, type: 3}
 --- !u!4 &1375602105 stripped
 Transform:
@@ -9500,26 +9348,6 @@ MonoBehaviour:
   HouseId: strawHouse
   HouseDoorPosition: {fileID: 839222748}
   DestroyedGameobjectPrefab: {fileID: 0}
---- !u!114 &1375602111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1375602106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifier
-  m_SerializedVersion: 0
-  m_OverrideArea: 0
-  m_Area: 0
-  m_OverrideGenerateLinks: 0
-  m_GenerateLinks: 0
-  m_IgnoreFromBuild: 1
-  m_ApplyToChildren: 1
-  m_AffectedAgents: ffffffff
 --- !u!1001 &1379751761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10844,7 +10672,6 @@ Transform:
   - {fileID: 457761236}
   - {fileID: 1065659165}
   - {fileID: 1924132066}
-  - {fileID: 1289823572}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1521535724
@@ -13468,10 +13295,8 @@ GameObject:
   - component: {fileID: 1844214554}
   - component: {fileID: 1844214553}
   - component: {fileID: 1844214552}
-  - component: {fileID: 1844214556}
-  - component: {fileID: 1844214557}
   m_Layer: 0
-  m_Name: StrawDoorTrigger
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13492,7 +13317,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -13569,41 +13394,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1844214556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1844214551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4114967a521494e8e2735d27c70ed6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TimeLineTrigger
-  HasTriggered: 0
-  RequiredState: 1
-  TimelineToPlay: {fileID: 714380679}
---- !u!114 &1844214557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1844214551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifier
-  m_SerializedVersion: 0
-  m_OverrideArea: 0
-  m_Area: 0
-  m_OverrideGenerateLinks: 0
-  m_GenerateLinks: 0
-  m_IgnoreFromBuild: 1
-  m_ApplyToChildren: 1
-  m_AffectedAgents: ffffffff
 --- !u!1001 &1858888355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14111,11 +13901,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4852946869848030480, guid: 5d1c698c0ee6fc04d963030f98417dcf, type: 3}
   m_PrefabInstance: {fileID: 1918457817}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1922880381 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7301987166630759765, guid: c073440a108eda2458bfa8d0ea8b28c3, type: 3}
-  m_PrefabInstance: {fileID: 7190144759330185645}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1924132065
 GameObject:
@@ -14961,6 +14746,7 @@ Transform:
   - {fileID: 141383713}
   - {fileID: 1194771126}
   - {fileID: 1805446779}
+  - {fileID: 1375602105}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2035777628
@@ -15735,7 +15521,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 359, y: 0, z: -0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0}
 --- !u!95 &2142443733
 Animator:
   serializedVersion: 7
@@ -16175,7 +15961,6 @@ MonoBehaviour:
     m_Signals:
     - {fileID: 11400000, guid: 56929a02ed1bf5046bcf3deeb373fb8c, type: 2}
     - {fileID: 11400000, guid: cfc2d688abc8cc94d8fe0cddcbe4bf17, type: 2}
-    - {fileID: 11400000, guid: 35df9902df9b2c648b7cf1397ce69545, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -16196,20 +15981,6 @@ MonoBehaviour:
         - m_Target: {fileID: 1556996136}
           m_TargetAssemblyTypeName: Wolf, Assembly-CSharp
           m_MethodName: AwaitSpeech
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1556996136}
-          m_TargetAssemblyTypeName: Wolf, Assembly-CSharp
-          m_MethodName: MoveToNextPoint
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -16396,7 +16167,6 @@ MonoBehaviour:
   Agent: {fileID: 88622480}
   Anim: {fileID: 7190144759330185647}
   Speech: {fileID: 7190144759330185646}
-  PigHouse: {fileID: 1375602107}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -16415,7 +16185,6 @@ SceneRoots:
   - {fileID: 2086835628}
   - {fileID: 1625780649}
   - {fileID: 2028613748}
-  - {fileID: 1375602104}
   - {fileID: 2033448717}
   - {fileID: 1483321167}
   - {fileID: 1520677391}

@@ -10,31 +10,37 @@ namespace EzAPI
             public enum PayLoadEnum
             {
 
-                [DisplayName("None")]
-                None,
-                [DisplayName("LoginData")]
-                Logindata,
-                [DisplayName("RequestPayloadBase")]
-                Requestpayloadbase
-            }
+    [DisplayName("None")]
+None,
+    [DisplayName("GetDialogRequestModel")]
+Getdialogrequestmodel,
+    [DisplayName("LoginData")]
+Logindata,
+    [DisplayName("RequestPayloadBase")]
+Requestpayloadbase
+}
 
             [Serializable]
             public enum ResponseEnum
             {
 
-                [DisplayName("ExampleResponse")]
-                Exampleresponse,
-                [DisplayName("RequestResponseBase")]
-                Requestresponsebase
-            }
+    [DisplayName("ExampleResponse")]
+Exampleresponse,
+    [DisplayName("GetDialogResponseModel")]
+Getdialogresponsemodel,
+    [DisplayName("RequestResponseBase")]
+Requestresponsebase
+}
 
             [Serializable]
             public enum EndPoints
             {
 
-                [DisplayName("com")]
-                Com
-            }
+    [DisplayName("com")]
+Com,
+    [DisplayName("v1/getDialog/1/1")]
+V1Getdialog11
+}
         }
     }
 }

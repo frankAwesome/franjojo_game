@@ -16397,6 +16397,7 @@ MonoBehaviour:
   Anim: {fileID: 7190144759330185647}
   Speech: {fileID: 7190144759330185646}
   PigHouse: {fileID: 1375602107}
+  IsAwaitingResponse: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -8,17 +8,20 @@ public class SpeechManager : MonoBehaviour
     public UnityEvent<string> OnSpeechComplete;
 
     public string RecordedSpeech = "";
+    public AudioRecorder AudioRecorder;
 
     private void Awake()
     {
         Instance = this;
     }
 
-    public void ToggleReadyToListen()
+    public void ToggleReadyToListen(string tip)
     {
         IsReadyForRecording = true;
+        
         RecordedSpeech = "";
-        UIManager.Instance.ToggleVoiceButton(true, "Say something."); // Show the voice button when ready
+        UIManager.Instance.ToggleVoiceButton(true, tip); // Show the voice button when ready
+        AudioRecorder.OnStart();
     }
 
 
@@ -38,6 +41,7 @@ public class SpeechManager : MonoBehaviour
     public void OnResultRecieved(string message)
     {
         if (!IsReadyForRecording) return; // Prevent processing if not ready
+        AudioRecorder.OnStop();
 
         IsReadyForRecording = false;
         UIManager.Instance.SetChatText(message, true);
@@ -49,14 +53,16 @@ public class SpeechManager : MonoBehaviour
 
     public void AcceptSpeech()
     {
-        OnSpeechComplete?.Invoke(RecordedSpeech);
+        UIManager.Instance.ToggleVoiceButton(false, ""); // Hide the voice button after accepting speech
+        OnSpeechComplete?.Invoke(RecordedSpeech);       
     }
 
     public void RetrySpeech()
     {
+        
         IsReadyForRecording = true; // Reset the state to allow for new recording
         RecordedSpeech = ""; // Clear the recorded speech
         UIManager.Instance.ToggleVoiceButton(true, "Say something."); // Show the voice button again
-
+        AudioRecorder.OnStart();
     }
 }

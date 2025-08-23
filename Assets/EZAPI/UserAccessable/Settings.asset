@@ -30,3 +30,19 @@ MonoBehaviour:
     contentTypeStruct:
       contentTypeOverride: 0
       contentType: 
+  - endPoint: v1/getDialog/1/1
+    requestTypes: 1
+    payLoadClass: 1
+    responseClass: 1
+    requestTimeout:
+      overrideValue: 0
+      overridenValue: 1000
+    retryInfo:
+      overrideValue: 1
+      overridenValue: 1000
+    dataTypeStruct:
+      dataTypeOverride: 0
+      dataType: 0
+    contentTypeStruct:
+      contentTypeOverride: 0
+      contentType: 

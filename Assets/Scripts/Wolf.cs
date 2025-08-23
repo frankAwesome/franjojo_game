@@ -17,6 +17,13 @@ public class Wolf : MonoBehaviour
     private void OnSpeechTalkStarted()
     {
         Anim.SetTrigger("Talk");
+
+        if (GameStateManager.Instance.CurrentState == GameStateManager.GameState.Start)
+        {
+            GameStateManager.Instance.CurrentState = GameStateManager.GameState.ApproachStrawHouse;
+            Invoke(nameof(MoveToNextPoint), 1f);
+            //MoveToStrawHouse();
+        }
     }
 
     private void OnSpeechComplete(string message)
@@ -63,25 +70,47 @@ public class Wolf : MonoBehaviour
         Agent.SetDestination(GameStateManager.Instance.FirstSpot.transform.position);
     }
 
+    public void MoveToNextPoint()
+    {
+    if (GameStateManager.Instance.CurrentState == GameStateManager.GameState.ApproachStrawHouse)
+        {
+            MoveToStrawHouse();
+        }
+        //else if (GameStateManager.Instance.CurrentState == GameStateManager.GameState.StrawHouse)
+        //{
+        //    MoveToBrickHouse();
+        //}
+    }
+
     public void MoveToStrawHouse()
     {
         //hungry, lets check // if the straw house is the closest house
         //Speech.dialogue = "Let's go to the straw house, I'm hungry!";
         //StartCoroutine(Speech.Talk());
-        SpeechManager.Instance.ToggleReadyToListen();
+        //SpeechManager.Instance.ToggleReadyToListen();
         MoveToHouse(GameStateManager.Instance.StrawHouseId);
     }
 
     public void AwaitSpeech()
     {
-        SpeechManager.Instance.ToggleReadyToListen();
+        string tip = "";
+        if (GameStateManager.Instance.CurrentState == GameStateManager.GameState.Start)
+        {
+            tip = "Say something to the pig.";
+        }
+        else if (GameStateManager.Instance.CurrentState == GameStateManager.GameState.ApproachStrawHouse)
+        {
+            tip = "Threaten to blow down the house.";
+        }
+
+        SpeechManager.Instance.ToggleReadyToListen(tip);
     }
 
 
     public void Talk(string message)
     {
         Speech.dialogue = message;
-        StartCoroutine(Speech.Talk());
+        StartCoroutine(Speech.Talk());        
     }
 
     public void MoveToWoodHouse()

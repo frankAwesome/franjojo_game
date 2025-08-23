@@ -1,10 +1,11 @@
 using UnityEngine;
 
 public class GameStateManager : MonoBehaviour
-{
+{    
     public enum GameState
     {
         Start,
+        ApproachStrawHouse,
         StrawHouse,
         WoodHouse,
         BrickHouse,

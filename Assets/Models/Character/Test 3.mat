@@ -25,11 +25,11 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _ALPHA_CUTOFF_ON
   - _CAST_SHADOWS_ON
   - _COLORRAMPLIGHTINGSTAGE_BEFORELIGHTING
   - _FOG_ON
   - _GREYSCALESTAGE_BEFORELIGHTING
+  - _HIGHLIGHTS_ON
   - _LIGHTMODEL_CLASSIC
   - _MATCAPBLENDMODE_MULTIPLY
   - _OUTLINETYPE_NONE
@@ -115,7 +115,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 25fdd780ba9acdb4dbc734d3860bcec0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
@@ -123,7 +123,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2e2fa635720f9b746a2ee1c867bc1a40, type: 3}
+        m_Texture: {fileID: 2800000, guid: d1db8232566c0674f82a1096a4c6e10e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatcapTex:
@@ -205,7 +205,7 @@ Material:
     - _AlbedoVertexColorMode: 1
     - _AlbedoVertexColorOn: 0
     - _AlphaClip: 0
-    - _AlphaCutoffOn: 1
+    - _AlphaCutoffOn: 0
     - _AlphaCutoffValue: 0.25
     - _AlphaRoundOn: 0
     - _AlphaToMask: 0
@@ -257,7 +257,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EmissionEnabled: 0
-    - _EmissionSelfGlow: 1
+    - _EmissionSelfGlow: 7.8
     - _EnvironmentReflections: 1
     - _FaceDownCutoff: 0.25
     - _FadeAmount: 0
@@ -288,24 +288,24 @@ Material:
     - _HardnessFakeGI: 0.75
     - _HeightGradientOn: 0
     - _HeightGradientPositionSpace: 0
-    - _HighlightCutoff: 0.5
-    - _HighlightSmoothness: 0.5
-    - _Highlights: 0
+    - _HighlightCutoff: 0.267
+    - _HighlightSmoothness: 0.247
+    - _Highlights: 1
     - _HighlightsStrength: 1
     - _Hit: 0
     - _HitBlend: 1
     - _HitGlow: 5
     - _Hologram: 0
     - _HologramAccentAlpha: 0.5
-    - _HologramAccentFrequency: 2
+    - _HologramAccentFrequency: 10.44
     - _HologramAccentSpeed: 1
     - _HologramAlpha: 1
-    - _HologramBaseAlpha: 0.1
-    - _HologramFrequency: 20
-    - _HologramLineCenter: 0.5
-    - _HologramLineSmoothness: 2
-    - _HologramLineSpacing: 2
-    - _HologramScrollSpeed: 2
+    - _HologramBaseAlpha: 0
+    - _HologramFrequency: 0.7
+    - _HologramLineCenter: 1
+    - _HologramLineSmoothness: 5
+    - _HologramLineSpacing: 5
+    - _HologramScrollSpeed: 68.91
     - _HueBrightness: 1
     - _HueBrightnessLM: 1
     - _HueSaturation: 1
@@ -369,7 +369,7 @@ Material:
     - _ScrollTextureX: 1
     - _ScrollTextureY: 1
     - _ShadingModel: 0
-    - _ShadowCutoff: 0.2
+    - _ShadowCutoff: 0.155
     - _ShakeBlend: 1
     - _ShakeSpeedMult: 1
     - _Shininess: 16
@@ -431,14 +431,14 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _CustomAmbientColor: {r: 0.65, g: 0.65, b: 0.65, a: 1}
     - _DepthGlowColor: {r: 1, g: 0.9869999, b: 0.6, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 1, g: 0, b: 0, a: 1}
     - _FadeBurnColor: {r: 1, g: 1, b: 0, a: 1}
     - _GlitchOffset: {r: -0.5, g: 0, b: 0, a: 0}
     - _GradientHeightColor01: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _GradientHeightColor02: {r: 1, g: 1, b: 1, a: 1}
     - _GreyscaleTintColor: {r: 1, g: 1, b: 1, a: 1}
     - _HighlightOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _HighlightsColor: {r: 2, g: 2, b: 2, a: 1}
+    - _HighlightsColor: {r: 2.670157, g: 0, b: 0, a: 1}
     - _HitColor: {r: 1, g: 1, b: 1, a: 1}
     - _HologramColor: {r: 1.25, g: 2.8, b: 6.8, a: 1}
     - _HologramLineDirection: {r: 0, g: 1, b: 0, a: 0}
