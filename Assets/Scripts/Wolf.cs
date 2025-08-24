@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -7,6 +8,7 @@ public class Wolf : MonoBehaviour
     public NavMeshAgent Agent;
     public Animator Anim;
     public LMNT.LMNTSpeech Speech;
+    private string LastMessage = string.Empty;
 
     private void Start()
     {
@@ -23,6 +25,20 @@ public class Wolf : MonoBehaviour
             GameStateManager.Instance.CurrentState = GameStateManager.GameState.ApproachStrawHouse;
             Invoke(nameof(MoveToNextPoint), 1f);
             //MoveToStrawHouse();
+        }
+        else if (GameStateManager.Instance.CurrentState == GameStateManager.GameState.ApproachStrawHouse)
+        {
+            Invoke(nameof(ClosestPigSpeechDelay), 1f);
+        }
+    }
+
+    private void ClosestPigSpeechDelay()
+    {
+        //find closest Pig
+        var closestPig = FindObjectsByType<Pig>(FindObjectsSortMode.InstanceID).OrderBy(p => Vector3.Distance(transform.position, p.transform.position)).FirstOrDefault();
+        if (closestPig != null)
+        {
+            closestPig.RandomSpeech(LastMessage);
         }
     }
 
@@ -109,6 +125,7 @@ public class Wolf : MonoBehaviour
 
     public void Talk(string message)
     {
+        LastMessage = message;
         Speech.dialogue = message;
         StartCoroutine(Speech.Talk());        
     }

@@ -5,6 +5,7 @@ using System.Text;
 using UnityEngine.Networking;
 using System.Collections;
 using UnityEngine.Events;
+using System.Linq;
 
 public class FraJoJoApi : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class FraJoJoApi : MonoBehaviour
     public string BaseUrl = "";
 
     public UnityAction<GetDialogResponseModel> OnDialogResponseReceived;
+
+    
 
     private void Awake()
     {
@@ -26,18 +29,22 @@ public class FraJoJoApi : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    
 
-    private void Start()
-    {        
-    }
-
-    public void GetGameStorieParams(int activeChapterId, string msg)
+    public void GetGameStorieParams(int activeChapterId, int npcId, string msg)
     {
         var body = new GetDialogRequestModel
         {
             activeChapterId = activeChapterId,
             completedChapterIds = new List<int>(),
-            milestones = new List<int>(),
+            milestones = GameStateManager.Instance.Chapters.FirstOrDefault(x => x.id == GameStateManager.Instance.ActiveChapterId).milestones.Select(x => new MilestoneSent
+            {
+                milestoneId = x.id,
+                completed = x.completed,
+                timestamp = x.timestamp,
+                name = x.name,
+                matches = x.matches
+            }).ToList(),
             playerQuestion = msg
         };
 
@@ -46,16 +53,16 @@ public class FraJoJoApi : MonoBehaviour
             ("Authorization", "Bearer " + BearerToken),            
         };
 
-        Debug.Log("Starting API call with URL: " + BaseUrl + "v1/getDialog/1/1");
+        Debug.Log("Starting API call with URL: " + BaseUrl + $"v1/getDialog/1/{npcId}");
 
-        StartCoroutine(PostJson<GetDialogRequestModel, GetDialogResponseModel>(BaseUrl + "v1/getDialog/1/1", body, headers, onSuccess: suc =>
+        StartCoroutine(PostJson<GetDialogRequestModel, GetDialogResponseModel>(BaseUrl + $"v1/getDialog/1/{npcId}", body, headers, onSuccess: suc =>
         {
             Debug.Log("Response received: " + suc.response?.dialogResponse);
             OnDialogResponseReceived?.Invoke(suc);
         }, onFail: (code, error, txt) =>
         {
             Debug.LogError($"Error: {code}, {error}, Response: {txt}");
-        }, 5));
+        }, 15));
         
     }
 

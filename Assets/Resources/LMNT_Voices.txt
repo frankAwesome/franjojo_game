@@ -1,4 +1,7 @@
+6f984aed-8654-4fa6-a085-8a7240e5e8e3|Book Reader
 aa70dbfd-1c37-4d02-94bf-1ff7cb0c3f4e|Lucky
+70f11e6e-cff9-4c5c-8371-18d8502f3e73|Mufasa
+6014cdfd-1af0-4177-822b-c812068afcfd|Patrick
 3a93f483-4acc-4a9c-a6db-de9ad66f918a|Pig 1
 5cd7a9da-2129-4c5d-9114-281d591a382f|Wolf
 amy|Amy

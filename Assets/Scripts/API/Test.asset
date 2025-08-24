@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f3d04de84f778a4f8e7d52a247a7702, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: Assembly-CSharp::GameStoryParamsAsset
+  baseUrl: https://franklerk.co.za
+  storyId: 1
+  bearerToken: 
+  data:
+    title: 
+    storyId: 0
+    timestamp: 
+    lore: 
+    characters: []
+    chapters: []
+  sourceJson: 
+  lastETag: 
+  lastModified: 
+  contentHash: 
+  lastFetchedAt: 

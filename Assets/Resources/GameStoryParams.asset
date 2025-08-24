@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f3d04de84f778a4f8e7d52a247a7702, type: 3}
+  m_Name: GameStoryParams
+  m_EditorClassIdentifier: Assembly-CSharp::GameStoryParamsAsset
+  baseUrl: https://franklerk.co.za
+  storyId: 1
+  bearerToken: 
+  data:
+    title: The Three Pigs and the Wolf
+    storyId: 1
+    timestamp: 2025-08-24T09:09:04.965471+00:00
+    lore: A Minecraft-themed retelling of the classic tale, where three pigs build
+      their homes and face the cunning wolf.
+    characters:
+    - type: protagonist
+      image: https://laby.net/api/v3/render/skin/8bb5b7f8f6314f128a68419ce4a8040c.png
+      description: Percy Pig quickly builds his house out of straw. It goes up fast,
+        but is it strong enough to keep him safe?
+      name: Percy Pig
+      subtitle: The quick builder (straw house)
+      id: 1
+      timestamp: 2025-08-24T09:09:04.964470+00:00
+    - type: npc
+      image: https://s.namemc.com/3d/skin/body.png?id=292a520f3c0d60a1&model=classic&width=308&height=308
+      description: Penny Pig chooses wood for her home, hoping it will be sturdier
+        than straw. She decorates it with flowers.
+      name: Penny Pig
+      subtitle: The creative builder (wood house)
+      id: 2
+      timestamp: 2025-08-24T09:09:04.964470+00:00
+    - type: npc
+      image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3JTmZNVMCDXEfuS7JE1IHJxrD6_0WpNvvQw1XL1ZWeowRWgJxQmFq6SyGuAwPgMNyAio&usqp=CAU
+      description: Peter Pig works hard to build a strong brick house. It takes longer,
+        but he feels safe inside.
+      name: Peter Pig
+      subtitle: The careful builder (brick house)
+      id: 3
+      timestamp: 2025-08-24T09:09:04.964470+00:00
+    - type: npc
+      image: https://s.namemc.com/3d/skin/body.png?id=814cafedc6a44064&model=classic&width=308&height=308
+      description: "The cunning wolf comes to the village, eyeing the pigs\u2019
+        houses. He starts with Percy\u2019s straw house."
+      name: Wolf
+      subtitle: The cunning antagonist
+      id: 4
+      timestamp: 2025-08-24T09:09:04.964470+00:00
+    chapters:
+    - image: https://i.ytimg.com/vi/bsiE5jTiaaA/maxresdefault.jpg
+      description: Percy Pig quickly build his house out of straw. It goes up fast,
+        but is it strong enough to keep him safe?
+      title: Percy Pig Build a Straw House
+      milestones:
+      - completed: 0
+        timestamp: 2025-08-24T09:09:04.965471+00:00
+        id: 1
+        name: Greet Percy Pig
+        matches: []
+      - completed: 0
+        timestamp: 2025-08-24T09:09:04.965471+00:00
+        id: 2
+        name: Threaten to Blow up the straw house, see if there is weaknesses
+        matches:
+        - blow house
+        - huff and puff
+        - destroy house
+      - completed: 0
+        timestamp: 2025-08-24T09:09:04.965471+00:00
+        id: 3
+        name: Find ways to Blow up the straw house
+        matches: []
+      id: 1
+      timestamp: 2025-08-24T09:09:04.965471+00:00
+    - image: https://i.ytimg.com/vi/gJgLwcKGOto/sddefault.jpg
+      description: Penny Pig chooses wood for her home, hoping it will be sturdier
+        than straw. She decorates it with flowers.
+      title: Penny Pig Builds a Wood House
+      milestones:
+      - completed: 0
+        timestamp: 2025-08-24T09:09:04.965471+00:00
+        id: 4
+        name: Threaten to Blow up the Wood House, see if there is weaknesses
+        matches: []
+      - completed: 0
+        timestamp: 2025-08-24T09:09:04.965471+00:00
+        id: 5
+        name: Find ways to Blow up the Wood House
+        matches: []
+      id: 2
+      timestamp: 2025-08-24T09:09:04.965471+00:00
+    - image: https://i.ytimg.com/vi/Q36THRWXRDY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAWDwEwXNEG6udMXXxNkjBCi4DRZg
+      description: Peter Pig works hard to build a strong brick house. It takes longer,
+        but he feels safe inside.
+      title: Peter Pig Builds a Brick House
+      milestones:
+      - completed: 0
+        timestamp: 2025-08-24T09:09:04.965471+00:00
+        id: 7
+        name: Threaten to Blow up the Brick House, see if there is weaknesses
+        matches: []
+      - completed: 0
+        timestamp: 2025-08-24T09:09:04.965471+00:00
+        id: 8
+        name: Find ways to Blow up the Brick House
+        matches: []
+      id: 3
+      timestamp: 2025-08-24T09:09:04.965471+00:00
+  sourceJson: "{\"endpoint\":\"v1/getGameStorieParams/1\",\"method\":\"GET\",\"response\":{\"characters\":[{\"type\":\"protagonist\",\"image\":\"https://laby.net/api/v3/render/skin/8bb5b7f8f6314f128a68419ce4a8040c.png\",\"description\":\"Percy
+    Pig quickly builds his house out of straw. It goes up fast, but is it strong
+    enough to keep him safe?\",\"name\":\"Percy Pig\",\"subtitle\":\"The quick builder
+    (straw house)\",\"id\":1,\"timestamp\":\"2025-08-24T09:09:04.964470+00:00\"},{\"type\":\"npc\",\"image\":\"https://s.namemc.com/3d/skin/body.png?id=292a520f3c0d60a1&model=classic&width=308&height=308\",\"description\":\"Penny
+    Pig chooses wood for her home, hoping it will be sturdier than straw. She decorates
+    it with flowers.\",\"name\":\"Penny Pig\",\"subtitle\":\"The creative builder
+    (wood house)\",\"id\":2,\"timestamp\":\"2025-08-24T09:09:04.964470+00:00\"},{\"type\":\"npc\",\"image\":\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3JTmZNVMCDXEfuS7JE1IHJxrD6_0WpNvvQw1XL1ZWeowRWgJxQmFq6SyGuAwPgMNyAio&usqp=CAU\",\"description\":\"Peter
+    Pig works hard to build a strong brick house. It takes longer, but he feels safe
+    inside.\",\"name\":\"Peter Pig\",\"subtitle\":\"The careful builder (brick house)\",\"id\":3,\"timestamp\":\"2025-08-24T09:09:04.964470+00:00\"},{\"type\":\"npc\",\"image\":\"https://s.namemc.com/3d/skin/body.png?id=814cafedc6a44064&model=classic&width=308&height=308\",\"description\":\"The
+    cunning wolf comes to the village, eyeing the pigs\u2019 houses. He starts with
+    Percy\u2019s straw house.\",\"name\":\"Wolf\",\"subtitle\":\"The cunning antagonist\",\"id\":4,\"timestamp\":\"2025-08-24T09:09:04.964470+00:00\"}],\"lore\":\"A
+    Minecraft-themed retelling of the classic tale, where three pigs build their
+    homes and face the cunning wolf.\",\"chapters\":[{\"image\":\"https://i.ytimg.com/vi/bsiE5jTiaaA/maxresdefault.jpg\",\"description\":\"Percy
+    Pig quickly build his house out of straw. It goes up fast, but is it strong enough
+    to keep him safe?\",\"title\":\"Percy Pig Build a Straw House\",\"milestones\":[{\"completed\":false,\"timestamp\":\"2025-08-24T09:09:04.965471+00:00\",\"id\":1,\"name\":\"Greet
+    Percy Pig\"},{\"completed\":false,\"timestamp\":\"2025-08-24T09:09:04.965471+00:00\",\"id\":2,\"name\":\"Threaten
+    to Blow up the straw house, see if there is weaknesses\"},{\"completed\":false,\"timestamp\":\"2025-08-24T09:09:04.965471+00:00\",\"id\":3,\"name\":\"Find
+    ways to Blow up the straw house\"}],\"id\":1,\"timestamp\":\"2025-08-24T09:09:04.965471+00:00\"},{\"image\":\"https://i.ytimg.com/vi/gJgLwcKGOto/sddefault.jpg\",\"description\":\"Penny
+    Pig chooses wood for her home, hoping it will be sturdier than straw. She decorates
+    it with flowers.\",\"title\":\"Penny Pig Builds a Wood House\",\"milestones\":[{\"completed\":false,\"timestamp\":\"2025-08-24T09:09:04.965471+00:00\",\"id\":4,\"name\":\"Threaten
+    to Blow up the Wood House, see if there is weaknesses\"},{\"completed\":false,\"timestamp\":\"2025-08-24T09:09:04.965471+00:00\",\"id\":5,\"name\":\"Find
+    ways to Blow up the Wood House\"}],\"id\":2,\"timestamp\":\"2025-08-24T09:09:04.965471+00:00\"},{\"image\":\"https://i.ytimg.com/vi/Q36THRWXRDY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAWDwEwXNEG6udMXXxNkjBCi4DRZg\",\"description\":\"Peter
+    Pig works hard to build a strong brick house. It takes longer, but he feels safe
+    inside.\",\"title\":\"Peter Pig Builds a Brick House\",\"milestones\":[{\"completed\":false,\"timestamp\":\"2025-08-24T09:09:04.965471+00:00\",\"id\":7,\"name\":\"Threaten
+    to Blow up the Brick House, see if there is weaknesses\"},{\"completed\":false,\"timestamp\":\"2025-08-24T09:09:04.965471+00:00\",\"id\":8,\"name\":\"Find
+    ways to Blow up the Brick House\"}],\"id\":3,\"timestamp\":\"2025-08-24T09:09:04.965471+00:00\"}],\"title\":\"The
+    Three Pigs and the Wolf\",\"storyId\":1,\"timestamp\":\"2025-08-24T09:09:04.965471+00:00\"},\"timestamp\":\"2025-08-24T11:54:12.335561\"}"
+  lastETag: 
+  lastModified: 
+  contentHash: ca8160578a1fe3162c05104f3b22d6adbe3c85dfedd2f92b8250d036b92f69dd
+  lastFetchedAt: 2025-08-24 11:54:12Z

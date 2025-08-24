@@ -11,4 +11,5 @@ public class GetDialogResponseModel
 public class GetDialogResponseResponseModel
 {
     public string dialogResponse;
+    public string matchedMilestone;
 }

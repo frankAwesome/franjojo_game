@@ -8,5 +8,5 @@ public class GetDialogRequestModel
     public string playerQuestion;      // "Hi"
     public int activeChapterId;        // 1
     public List<int> completedChapterIds; // []
-    public List<int> milestones;       // []  (IDs; you can change to objects later if API adds detail)
+    public List<MilestoneSent> milestones;       // []  (IDs; you can change to objects later if API adds detail)
 }
